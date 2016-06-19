@@ -16,22 +16,22 @@
         <link rel="stylesheet" href="hero.css" />
     </head>
     <body>
-      <!-- Navigation -->
+           <!-- Navigation -->
 <nav class="navbar navbar-light bg-faded">
  
   <ul class="nav navbar-nav">
     <li class="nav-item active">
-      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Features</a>
+      <a class="nav-link" href="gallery.html">Portfolio</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="mailto:lisettediaz@me.com">Contact Me</a>
+      <a class="nav-link" href="contact.html">Contact Me</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">About</a>
-    </li>
+    <!--<li class="nav-item">
+      <a class="nav-link" href="#">ABOUT</a>
+    </li>-->
   </ul>
   <form class="form-inline pull-xs-right">
     <input class="form-control" type="text" placeholder="Search">
@@ -39,56 +39,45 @@
   </form>
 </nav>
 
-<br/><br/>
+<br/>
 
 
-<form action="mailto:lisettediaz@me.com" method="get">
-  <fieldset class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-    <small class="text-muted">We'll never share your email with anyone else.</small>
-  </fieldset>
-  <!--<fieldset class="form-group">
-    <label for="exampleSelect1">Drop Down</label>
-    <select class="form-control" id="exampleSelect1">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </fieldset>
-  <fieldset class="form-group">
-    <label for="exampleSelect2">Rate Your Experience:</label>
-    <select multiple class="form-control" id="exampleSelect2">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </fieldset>-->
-  <fieldset class="form-group">
-    <label for="exampleTextarea">Message</label>
-    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-  </fieldset>
-  <fieldset class="form-group">
-    <label for="exampleInputFile">File input</label>
-    <input type="file" class="form-control-file" id="exampleInputFile">
-    <small class="text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
-  </fieldset>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-
-<br/><br/>
+      <!-- You'll be wrapping this content into a Contact, and adding more classes -->
+    <div class="setAbsolute container-fluid">
+      <div>
+        <h2>Contact Me</h2>
+      </div>
+      <div class="row">
+      
+      <form role="form" action="MAILTO:lisettediaz@me.com" method="get">
+        <fieldset class="form-group">
+          <label class="col-xs-4 col-md-2" for="name">Name</label>
+          <input class="col-xs-6 col-md-4" type="text" class="form-control" id="name" name="name" placeholder="Enter name">
+        </fieldset>
+        <fieldset class="form-group">
+          <label class="col-xs-4 col-md-2" for="email">Email</label>
+          <input class="col-xs-6 col-md-4 " type="email" class="form-control" id="email" name="email" placeholder="Enter email">
+        </fieldset>
+        <fieldset class="form-group">
+          <label class="col-xs-4 col-md-2" for="subject">Subject</label>
+          <input class="col-xs-6 col-md-4 " type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
+        </fieldset>
+        <fieldset class="form-group">
+          <label class="col-xs-4 col-md-2" for="message">Message</label>
+          <textarea class="col-xs-6 col-md-4 " id="message" class="form-control" name="body" placeholder="Enter Message" rows="7"></textarea>
+        </fieldset>
+         <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      </div>
+    </div>
 
       <!-- Footer -->
-	<div class="footer"><footer>
+<footer>
 			
-		<p><a href="Files/Diaz_Lisette_Resume.pdf" title="Resume" target="_blank"">Download my current resume here. </a>
+		<p><a href="Files/Diaz_Lisette_Resume.pdf" title="Resume" target="_blank">Download my current resume here. </a>
 		<br/>
 		Posted by Lisette Diaz &copy;2016</p>
-	</footer></div>
+	</footer>
 
 	</body>
 </html>
