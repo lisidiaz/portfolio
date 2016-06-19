@@ -1,6 +1,14 @@
 .jumbotron {
     /* add bootstrap jumbotron background image */
-    background: url("images/banner.jpg");
+    background: url("http://bullshitexperts.com/wp-content/uploads/trianglify.png");
+    background-position: 0% 0%;
+    background-size: cover;
+    background-repeat: no-repeat
     /* change bootstrap jumbotron text color */
-    color: #FFF;
+    color: #000000;
+}
+
+.centertext {
+	text-align: center;
+
 }
